@@ -47,6 +47,7 @@ nav a{
     display: flex;
     list-style: none;
     justify-content: center;
+    margin: 0;
 }
 .navlinks li{
     margin-right: 1rem;
@@ -64,3 +65,20 @@ img{
     display: flex;
     font-family: arial;
 }
+/*inicio main*/
+main{
+    background-color: black;
+    margin-top: 7.7rem;
+    color: white;
+}
+/*fin main*/
+
+/*inicio footer*/
+footer{
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 2.5%;
+    border-top: 1px solid #e5d3d3;
+    background: #f6f3f3;
+}
+/*fin footer*/
