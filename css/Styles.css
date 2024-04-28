@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body{
+    font-size: 1.6rem;
+}
+div, body{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-weight: 400;
+}
+nav{
+    background-color: #006491;
+    width: 126.333rem;
+    display: flex;
+}
+.navbar{
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    height: 77px;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    color: white;
+    box-shadow: 0 0 0.8125rem 0 rgba(0, 0, 0, 0.75);
+    z-index: 4;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navlinks li{
+    margin-right: 1rem;
+    display: flex;
+}
+img{
+    max-width: 100%;
+}
+.alignItemsCenter{
+    align-items: center;
+}
+.sesionCompra{
+    font-size: 1.9rem;
+    background-color: #005177;
+    display: flex;
+    font-family: arial;
+}
