@@ -70,12 +70,11 @@ img{
 /*inicio main*/
 main{
     /*margin-top: 4.5%;*/
-    background-color: black;
+    background-color: #f7f7f7;
     margin-top: 7.7rem;
     color: white;
 }
 .barraSup{
-    background-color: aquamarine;
     margin-top: 0.5%;
     margin-bottom: 2%;
 }
@@ -127,7 +126,7 @@ main{
 .o{
     padding: 0px 0.6rem 0px 0.6rem;
     color: #888;
-    font-family: Ubuntu;
+    /*font-family: Ubuntu;*/
     font-style: italic;
     font-weight: bold;
     font-size: 1.8rem;
@@ -146,8 +145,10 @@ main{
     margin: 15px auto;
     position: relative;
     margin-bottom: 1.0rem;
-    margin-left: 0px;
+    margin-left: 11.9rem;
+    /*margin-right: 3.5rem;*/
     display: flex;
+    /*justify-content: center;*/
     /*flex-wrap: wrap;*/
 }
 .img1{
