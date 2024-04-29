@@ -141,6 +141,37 @@ main{
     padding: 0.8rem 1.6rem;
     border-radius: 0.48rem;
 }
+.promoImg{
+    width: 100.0rem;
+    margin: 15px auto;
+    position: relative;
+    margin-bottom: 1.0rem;
+    margin-left: 0px;
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+.img1{
+    flex: 0 0 58.333%;
+    max-width: 58.333%;
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    display: inline-block;
+    /*position: relative;*/
+}
+.promoinferior{
+    margin: 0.1rem;
+    padding-left: 1%;
+    margin-top: -3.0rem;
+    margin-bottom: -3.0rem;
+}
+.promoinferior a img{
+    width: 96%;
+    border: 0.1px solid #e5dede;
+    border-radius: 0.4rem;
+    max-width: 100%;
+    height: auto;
+}
 /*fin main*/
 
 /*inicio footer*/
