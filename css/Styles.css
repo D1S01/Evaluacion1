@@ -8,10 +8,11 @@ html {
 
 body{
     font-size: 1.6rem;
+    /*width: 126.333rem;*/
 }
 div, body{
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
     font-family: Arial;
     font-weight: 400;
@@ -80,5 +81,72 @@ footer{
     padding-top: 2.5%;
     border-top: 1px solid #e5d3d3;
     background: #f6f3f3;
+    justify-content: center;
+}
+.contenedorFooter{
+    /*background-color: #ff4500;*/
+    justify-content: center;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    margin-right: -1.5rem;
+    /*margin-left: -1.5rem;*/
+    font-family: Arial;
+    font-weight: 400;
+    max-width: 114.0rem;
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    color: #212529;
+    text-align: left;
+}
+.infoLegal{
+    padding-right: 3%;
+    border-right: 1px solid #d5d3d3;
+    flex: 0 0 50%;
+    max-width: 50%;
+    /*position: relative;*/
+    width: 100%;
+    padding-left: 1.5rem;
+}
+.infoLegal h2{
+    /*font-family: PizzaPress;*/
+    font-size: 1.8rem;
+
+}
+.infoLegal p{
+    /*font-family: Roboto;*/
+    text-align: justify;
+    color: #4a5157;
+    font-size: 1.4rem;
+    padding-left: 1%;
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+}
+.sobreNosotros{
+    padding-left: 3.0rem;
+    border-right: 0.1rem solid #d5d3d3;
+    flex: 0 0 25%;
+    max-width: 25%;
+    /*position: relative;*/
+    width: 100%;
+    padding-right: 1.5rem;
+}
+.sobreNosotros h2{
+    /*font-family: PizzaPress;*/
+    font-size: 1.8rem;
+}
+.sobreNosotros p{
+    font-size: 1.6rem;
+    margin-bottom: 0.9rem;
+    margin-top: 0;
+    color: #212529;
+    text-align: left;
+}
+.sobreNosotros a{
+    padding-left: 2%;
+    color: #4a5157;
+    text-decoration: none;
 }
 /*fin footer*/
