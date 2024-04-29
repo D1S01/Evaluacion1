@@ -53,6 +53,7 @@ nav a{
 .navlinks li{
     margin-right: 1rem;
     display: flex;
+    /*text-transform: uppercase;*/
 }
 img{
     max-width: 100%;
@@ -68,9 +69,77 @@ img{
 }
 /*inicio main*/
 main{
+    /*margin-top: 4.5%;*/
     background-color: black;
     margin-top: 7.7rem;
     color: white;
+}
+.barraSup{
+    background-color: aquamarine;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+.pedido{
+    width: 101.0rem;
+    padding-right: 3.0rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.pedido hr{
+    display: inline-block;
+    margin-right: 1.0rem;
+    height: 0.2rem;
+    background-color: #dcdcdc;
+}
+.barraPedido{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    display: flex;
+}
+.barraPedido li{
+    display: inline-block;
+    font-size: 2.0rem;
+    margin: 0;
+    padding: 0 1.5rem;
+    /*line-height: 4.0rem;*/
+}
+.texto{
+    color: #006491;
+    font-size: 2.8rem;
+}
+.domi{
+    padding-left: 0.3rem;
+    padding-right: 0.9rem;
+}
+.domi a{
+    font-size: 1.9rem;
+    background-color: #e21737;
+    color: white;
+    margin-top: 0px;
+    width: 17.5rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.48rem;
+}
+.o{
+    padding: 0px 0.6rem 0px 0.6rem;
+    color: #888;
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.tienda{
+    font-size: 1.9px;
+    background-color: #e21737;
+    color: white;
+    margin-top: 0px;
+    width: 17.5rem;
+    padding: 0.8rem 1.6rem;
+    border-radius: 0.48rem;
 }
 /*fin main*/
 
